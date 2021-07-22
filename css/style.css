@@ -17,7 +17,7 @@ header {
     font-weight: bold;
     border: 3px solid #f1f1f1;
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 15%;
     z-index: 2;
     width: 30%;
@@ -42,13 +42,18 @@ nav {
 }
 
 .logo {
-    margin-left: 17%;
+    margin-left: 10%;
 }
 
 .logo p {
     font-size: 2rem;
     color: #fff;
     font-weight: bold;
+    margin: 0;
+}
+
+.navigation ul {
+    margin: 0;
 }
 
 .navigation ul li {
@@ -87,8 +92,8 @@ main {
     margin-top: 0%;
     width: 80%;
     border-top: 0;
-    border: 0.5rem solid rgb(0, 0, 0, 0.5);
-    border-radius: 1.5rem;
+    border: 0.2rem solid rgb(0, 0, 0, 0.5);
+    border-radius: 1rem;
     margin-left: 10%;
     background: rgb(255, 255, 255)
 }
@@ -116,16 +121,15 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
-    text-align: center;
     justify-content: space-around;
 
 }
 
 .services {
     margin-top: 5%;
-    text-align: center;
     width: 80%;
     margin-left: 10%;
+    text-align: justify;
     background: rgb(255, 255, 255);
 }
 
@@ -133,6 +137,7 @@ main {
     padding-top: 10%;
     font-size: 1.5rem;
     color: rgb(0, 0, 0, 0.5);
+    text-align: center;
 }
 
 .services-contents img {
@@ -140,10 +145,10 @@ main {
 }
 
 .services-contents p {
-    width: 19rem;
+    width: 18rem;
 }
 
 .services-contents p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
