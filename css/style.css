@@ -35,12 +35,12 @@ header {
 
 
 nav {
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    background: linear-gradient( rgba(0, 0, 0), rgba(0, 0, 0) );
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-bottom: 5%;
-    padding-top: 1%;
+    padding-bottom: 7rem;
+    padding-top: 1rem;
 }
 
 .logo {
@@ -78,80 +78,64 @@ nav {
     color: bisque;
 }
 
-/* hr {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-} */
-
-main {
-    background: rgb(0, 0, 0);
-    width: 100%;
-    height: auto;
+.has-text-centered {
+    text-align: center !important;
 }
 
-.resume {
-    text-align: center;
-    margin-top: 0%;
-    width: 80%;
-    border-top: 0;
-    border: 0.2rem solid rgb(0, 0, 0, 0.5);
-    border-radius: 1rem;
-    margin-left: 10%;
-    background: rgb(255, 255, 255);
-}
-
-.resume h2 {
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0, 0.5);
-    margin: 10% 10% 5% 10%;
-}
-
-.resume-contents {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    justify-content: space-around;
-
-}
-
-.resume-contents img {
-    width: 10rem;
-}
-
-.services {
-    margin-top: 5%;
-    width: 80%;
-    margin-left: 10%;
-    background: rgb(255, 255, 255);
-    border: 0.2rem solid rgb(0, 0, 0, 0.5);
-    border-radius: 1rem;
-}
-
-.services-contents {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-}
-
-.services h2 {
-    padding-top: 10%;
-    font-size: 1.5rem;
-    color: rgb(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.services-contents img {
-    width: 13rem;
-}
-
-
-.services-contents p {
-    font-size: 1.3rem;
+.has-text-box {
     width: 18rem;
-    text-align: justify;
+    margin: auto;
+    font-size: 1.2rem;
 }
+
+section  {
+    padding: 0;
+    margin-top: -6rem
+}
+
+section.resume {
+    background: linear-gradient( rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95) );
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+    padding-bottom: 10rem;
+}
+
+.box {
+    padding: 3rem 0 3rem 0;
+    border-radius: 0.9rem;
+    background-color: #fff;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.columns {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex-grow: 1;
+    width: 33%;
+}
+
+.column figure { 
+    margin-top: auto;
+}
+
+.column img {
+    width: 12rem;
+}
+
+
+
+
+
+
 
