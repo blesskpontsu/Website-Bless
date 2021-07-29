@@ -35,12 +35,12 @@ header {
 
 .profile {
     position: absolute;
-    top: 28%;
+    top: 35%;
     left: 50%;
 }
 
 .profile img {
-    width: 25%;
+    width: 35%;
 }
 
 
@@ -115,11 +115,6 @@ section.resume {
     padding-bottom: 10rem;
 }
 
-.container-fluid {
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-}
 
 .box {
     padding: 3rem 0 3rem 0;
@@ -165,13 +160,25 @@ section.testimonials {
 .v-column {
     flex-grow: 1;
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.2rem;
+}
+.zero-space {
+    margin: 0;
+    padding: 0;
+}
+
+p.zero-space {
+    font-size: 1rem;
 }
 
 
 .rounded-image {
-    width: 30%;
+    width: 35%;
     border-radius: 50%;
+}
+
+.portfolio .box {
+    background: linear-gradient( rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95) );
 }
 
 
